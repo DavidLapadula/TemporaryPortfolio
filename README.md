@@ -2,10 +2,9 @@
 After completing some additional Projects, decided to update my portfolio page. I went for a simple and intuitive design. 
 
 ## Motivation
-Whenever I have completed a few projects, i enjoy showcasing them in my personal portfolio. Moreover, this gives me the opportunity to work on my development skills. 
+Whenever I have completed a few projects, I enjoy showcasing them in my personal portfolio. Moreover, this gives me the opportunity to work on my development skills. 
 
-## Build status
-Although I am happy with this current version. I am working on a full stack portfolio that should be coming soon. 
+A more polished version is currently in the works!
 
 ## Code style
 I felt as though I needed to work on some css so I built this page without the help of any frameworks(s) or libraries. 
