@@ -30,6 +30,3 @@ For anyone looking to implement this bubble design:
 * Apply the class to each Div that corresponds to the circle size you want to displa. 
 
 
-## Preview
-Take a look at the real thing [here](https://davidlapadula.github.io/week17-Portfolio/).
-
