@@ -369,10 +369,7 @@ footer {
 	h1 {
 		font-size: 30px;
 	}
-
-	.full {
-		display: none;
-	}
+	
 	h3 {
 		font-size: 17px;
 	}
@@ -428,9 +425,6 @@ footer {
 		font-size: 30px;
 	}
 
-	.full {
-		display: none;
-	}
 	.col-sm-1 {
 		width: 8.33%;
 	}
