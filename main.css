@@ -183,28 +183,21 @@ nav li a {
 
 
 .full .project-one {
-	background-image: url("./images/rps.jpg");
+	background-image: url("./images/bamazon");
 }
 
 .full .project-two {
-	background-image: url("./images/compatibility.jpg");
-}
-
-.full .project-three {
-	background-image: url("./images/travel.jpeg");
-}
-
-.full .project-four {
-	background-image: url("./images/memory.jpg");
-}
-
-.full .project-five {
 	background-image: url("./images/reactClick.jpg");
 }
 
-.full .project-six {
+.full .project-three {
+	background-image: url("./images/stock-simple.jpg");
+}
+
+.full .project-four {
 	background-image: url("./images/scraping.jpg");
 }
+
 
 .profile-pic {
 	background-image: url("./images/portfoliopic.png");
