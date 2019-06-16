@@ -181,20 +181,19 @@ nav li a {
 /* IMAGES */
 
 
-
-.full .project-one {
-	background-image: url("./images/bamazon");
+ .project-one {
+	background-image: url("./images/bamazon.jpg");
 }
 
-.full .project-two {
+ .project-two {
 	background-image: url("./images/reactClick.jpg");
 }
 
-.full .project-three {
+ .project-three {
 	background-image: url("./images/stock-simple.jpg");
 }
 
-.full .project-four {
+ .project-four {
 	background-image: url("./images/scraping.jpg");
 }
 
@@ -232,9 +231,7 @@ footer {
 	text-align: center;
 	margin: 2em auto 2em;
   }
-  .skills-diagram > dd {
-	display: none;
-  }
+
   .skills-diagram dt {
 	display: inline-block;
 	vertical-align: top;
