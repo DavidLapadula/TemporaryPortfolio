@@ -95,6 +95,13 @@ nav li a {
 	padding-right: 15px;
 	text-decoration: none;
 }
+
+.contact {
+	display: flex;
+	justify-content: center; 
+	margin-top: 20px; 
+}
+
 .nav-anchors {
 	color: var(--green); 
 }
@@ -211,7 +218,7 @@ nav li a {
 
 .social-network {
 	display: inline; 
-
+	margin: 0px 5px 0px 5px; 
 }
 
 
