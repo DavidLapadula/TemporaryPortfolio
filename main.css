@@ -159,6 +159,9 @@ nav li a {
 	height: 0;
 	transition: .5s ease;
 }
+.project-header {
+	font-weight: bold; 
+}
 
 .thumbnail:hover .project-name {
 	bottom: 0;
