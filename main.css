@@ -127,7 +127,7 @@ nav li a {
 }
 
 .thumbnail {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(63, 59, 59, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
 	overflow: hidden;
 }
@@ -140,12 +140,6 @@ nav li a {
 	font-size: 15px;
 }
 
-.position-center {
-	display: flex; 
-	flex-direction: row; 
-	align-items: center; 
-}
-
 .project-name {
 	position: absolute;
 	bottom: 100%;
@@ -156,6 +150,8 @@ nav li a {
 	width: 100%;
 	height: 0;
 	transition: .5s ease;
+	display: flex; 
+	justify-content: center; 
 }
 .project-header {
 	font-weight: bold; 
