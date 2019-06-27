@@ -96,10 +96,20 @@ nav li a {
 	text-decoration: none;
 }
 
+.fab {
+	margin-left: 5px; 
+}
+
+.inner-project-display {
+	display: flex; 
+	height: 100%; 
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .contact {
 	display: flex;
 	justify-content: center; 
-	margin-top: 20px; 
 }
 
 .nav-anchors {
@@ -147,10 +157,7 @@ nav li a {
 	background-color: var(--green);
 	overflow: hidden;
 	width: 100%;
-	/* remove the hover property */
-	height: 100%;
 	transition: .5s ease;
-	align-content: space-between; 
 	padding: 10px; 
 
 }
