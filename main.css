@@ -76,12 +76,6 @@ nav h4 {
 	padding-left: 15px;
 }
 
-nav .mobile {
-	float: right;
-	padding: 10px;
-	padding-right: 15px;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -101,6 +95,24 @@ nav li a {
 	padding-right: 15px;
 	text-decoration: none;
 }
+
+.fab {
+	margin-left: 5px; 
+}
+
+.inner-project-display {
+	display: flex; 
+	height: 100%; 
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px; 
+}
+
+.contact {
+	display: flex;
+	justify-content: center; 
+}
+
 .nav-anchors {
 	color: var(--green); 
 }
@@ -126,25 +138,16 @@ nav li a {
 }
 
 .thumbnail {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(63, 59, 59, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
 	overflow: hidden;
 }
 
 .thumbnail p {
 	color: black;
-	text-align: center;
 	padding: 10px 0px;
 	font-weight: bold;
 	font-size: 15px;
-}
-
-.position-center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%; 
-	transform: translate(-50%, -50%);
 }
 
 .project-name {
@@ -155,8 +158,19 @@ nav li a {
 	background-color: var(--green);
 	overflow: hidden;
 	width: 100%;
-	height: 0;
-	transition: .5s ease;
+	transition: .5s ease; 
+
+}
+.project-link {
+	display: flex; 
+	justify-content: center; 
+	margin-top: 20px; 
+}
+
+.project-header {
+	font-weight: bold; 
+	text-align: center;
+	margin-bottom: 20px; 
 }
 
 .thumbnail:hover .project-name {
@@ -178,16 +192,6 @@ nav li a {
 	font-size: 15px;
 }
 
-.mobile .thumbnail {
-	background-color: white;
-	/* padding-top: 10px; */
-	text-align: center; 
-}
-
-.mobile-img-row {
-	display: flex; 
-	justify-content: center; 
-}
 
 .text {
 	font-size: 20px; 
@@ -196,54 +200,27 @@ nav li a {
   
 /* IMAGES */
 
-.mobile .project-one {
-	background-image: url("./images/rps.jpg");
+
+ .project-one {
+	background-image: url("./images/bamazon.jpg");
 }
 
-.mobile .project-two {
-	background-image: url("./images/compatibility.jpg");
-}
-
-.mobile .project-three {
-	background-image: url("./images/travel.jpeg");
-}
-
-.mobile .project-four {
-	background-image: url("./images/memory.jpg");
-}
-
-.mobile .project-five {
+ .project-two {
 	background-image: url("./images/reactClick.jpg");
 }
 
-.mobile .project-six {
+ .project-three {
+	background-image: url("./images/stock-simple.jpg");
+}
+
+ .project-four {
 	background-image: url("./images/scraping.jpg");
 }
 
-
-.full .project-one {
-	background-image: url("./images/rps.jpg");
+.project :hover {
+	cursor: pointer;
 }
 
-.full .project-two {
-	background-image: url("./images/compatibility.jpg");
-}
-
-.full .project-three {
-	background-image: url("./images/travel.jpeg");
-}
-
-.full .project-four {
-	background-image: url("./images/memory.jpg");
-}
-
-.full .project-five {
-	background-image: url("./images/reactClick.jpg");
-}
-
-.full .project-six {
-	background-image: url("./images/scraping.jpg");
-}
 
 .profile-pic {
 	background-image: url("./images/portfoliopic.png");
@@ -254,15 +231,9 @@ nav li a {
 
 .social-network {
 	display: inline; 
-
+	margin: 0px 5px 0px 5px; 
 }
 
-.mobile-skills {
-	color: var(--green); 
-	justify-content: center; 
-	display: flex; 
-	font-size: 25px; 
-}
 
 a {
 	text-decoration: none; 
@@ -284,9 +255,7 @@ footer {
 	text-align: center;
 	margin: 2em auto 2em;
   }
-  .skills-diagram > dd {
-	display: none;
-  }
+
   .skills-diagram dt {
 	display: inline-block;
 	vertical-align: top;
@@ -401,28 +370,6 @@ footer {
 	opacity: 0.7; 
   }
 
-/* Mobile Viewport */
-
-@media only screen and (max-width: 480px) {
-	[class*="col-"] {
-		width: 100%;
-	}
-	.wrapper {
-		width: 90%;
-	}
-	nav {
-		font-size: 15px;
-	}
-	h1 {
-		font-size: 26px;
-	}
-	.mobile {
-		display: block;
-	}
-	.full {
-		display: none;
-	}
-}
 
 /* Tablet Viewport */
 
@@ -436,17 +383,7 @@ footer {
 	h1 {
 		font-size: 30px;
 	}
-	.mobile {
-		display: block;
-	}
-
-	.mobile-skills-row {
-		padding: 5px; 
-	}
-
-	.full {
-		display: none;
-	}
+	
 	h3 {
 		font-size: 17px;
 	}
@@ -501,12 +438,7 @@ footer {
 	h1 {
 		font-size: 30px;
 	}
-	.mobile {
-		display: block;
-	}
-	.full {
-		display: none;
-	}
+
 	.col-sm-1 {
 		width: 8.33%;
 	}
@@ -563,9 +495,7 @@ footer {
 	.full {
 		display: block;
 	}
-	.mobile {
-		display: none;
-	}
+
 	.col-md-1 {
 		width: 8.33%;
 	}
@@ -619,9 +549,7 @@ footer {
 	.full {
 		display: block;
 	}
-	.mobile {
-		display: none;
-	}
+
 	.col-1 {
 		width: 8.33%;
 	}
