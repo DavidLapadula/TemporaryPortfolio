@@ -6,9 +6,6 @@ Whenever I have completed a few projects, I enjoy showcasing them in my personal
 
 A more polished version is currently in the works!
 
-## Code style
-I felt as though I needed to work on some css so I built this page without the help of any frameworks(s) or libraries. 
-
 ## Screenshots
 ![](./images/about.jpeg)   
 ![](./images/projects.jpeg)    
